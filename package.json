@@ -1,0 +1,19 @@
+{
+  "name": "mobilewebbayarind",
+  "version": "1.0.0",
+  "description": "Mobile View web",
+  "main": "index.html",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.2",
+    "bootstrap": "^4.3.1",
+    "bootstrap-pincode-input": "^1.6.1",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.14.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bimapw",
+  "license": "ISC"
+}

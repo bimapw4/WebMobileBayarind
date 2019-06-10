@@ -1,0 +1,168 @@
+/* Fonts google Roboto */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* Set All Component to use this */
+* {
+    font-family: FontAwesome, 'Roboto', sans-serif;
+}
+
+input {
+    padding:10px;
+      font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit;
+}
+
+.color-primary {
+    color: #0A77D9;
+}
+
+.color-sekunder {
+    color: #748AA1;
+}
+
+.color-tersier {
+    color: #9E9E9E
+}
+
+.shadow-header {
+    -webkit-box-shadow: 2px 3px 32px -19px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 2px 3px 32px -19px rgba(0, 0, 0, 0.65);
+    box-shadow: 2px 3px 32px -19px rgba(0, 0, 0, 0.65);
+}
+.bg-light-me{
+    background-color: #ffffff!important;
+}
+
+.col-me {
+    position: relative;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.col-me2 {
+    position: relative;
+    width: 100%;
+}
+
+.col-me-mini {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.table-me td,
+.table-me th {
+    padding: .75rem;
+    vertical-align: top;
+    border: 0 solid #dee2e6 !important;
+}
+
+
+.table-me tfoot tr td{
+    background-color: #0A77D9;
+    border: 0 solid #dee2e6 !important;
+    color: white;
+}
+
+.button-primary-me {
+    height: 3rem;
+    width: 15rem;
+    margin-left: 13%;
+    margin-top: 10%;
+    background: #0A77D9;
+    color: white;
+    border: 0px;
+    border-radius: 50px;
+}
+
+.button-primary-me-2 {
+    height: 3rem;
+    width: 7rem;
+    margin-top: 10%;
+    background: #0A77D9;
+    color: white;
+    border: 0px;
+    border-radius: 50px;
+}
+
+.footer-me {
+    height: 4.2rem;
+    background-image: url("../asset/footer.svg");
+    background-position: bottom;
+    background-size: cover;
+
+}
+
+.card-me {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.card-me-2 {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid rgba(0, 0, 0, .125);
+    border-radius: .30rem;
+}
+
+.input-me {
+    border: none;
+    background: #0A77D9;
+    width:100%;
+    font-size:20px;
+    height: auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    text-align: center;
+}
+.form-control-me {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    outline-color: none;
+    background-color: #0A77D9;
+    background-clip: padding-box;
+    border: 0px solid #0A77D9;
+    outline: none;
+    border-radius: .25rem #0A77D9;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.security{
+    margin-left: 20%;
+    font-size: 24px;
+    font-weight: 300;
+    color: #748AA1;
+}
+.field-icon {
+    float: right;
+    margin-left: -29px;
+    margin-top: 4%;
+    position: relative;
+    z-index: 1;
+    height: 20%;
+  }
